@@ -28,20 +28,15 @@ export default function About() {
     ];
     return (
         <div id="about" className="w-full px-[12%] py-10 scroll-mt-10">
-            <h4 className="text-center mb-2 text-lg font-Ovo dark:text-[#1EFF00] text-blue-500">Introduction</h4>
-            <h2 className="text-center text-5xl font-Ovo">About me</h2>
+            <h4 className="text-center mb-2 text-lg dark:text-[#1EFF00] text-blue-500">Introduction</h4>
+            <h2 className="text-center text-5xl">About me</h2>
 
             <div className="flex w-full flex-col lg:flex-row items-center gap-20 my-3">
-                <div className="max-w-max mx-auto relative">
+                <div className="max-w-max mx-auto relative ">
                     <img src='./assets/Photo.jpeg' alt="" className="w-64 border border-black sm:w-80 rounded-sm max-w-none" />
-
-                    {/* <div className="bg-white w-1/2 aspect-square absolute right-0 bottom-0 rounded-full translate-x-1/4 translate-y-1/3 shadow-[0_4px_55px_rgba(149,0,162,0.15)] flex items-center justify-center">
-                        <img src="./assets/circular-text.png" alt="" className="w-full animate-spin_slow" />
-                        <img src="./assets/dev-icon.png" alt="" className="w-1/4 absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2" />
-                    </div> */}
                 </div>
                 <div className="flex-1">
-                    <p className="mb-10 max-w-2xl font-Ovo">Final-year B.Tech IT student & Full-Stack Developer specializing in MERN, Java, SQL. I build responsive, performance-driven web apps with clean UI and efficient backend systems. Hackathon-tested problem solver, seeking impactful internship or full-time opportunities.</p>
+                    <p className="mb-10 max-w-2xl">Final-year B.Tech IT student & Full-Stack Developer specializing in MERN, Java, SQL. I build responsive, performance-driven web apps with clean UI and efficient backend systems. Hackathon-tested problem solver, seeking impactful internship or full-time opportunities.</p>
 
                     <ul className="grid grid-cols-1 sm:grid-cols-3 gap-6 max-w-2xl">
                         {data.map((data) => (
@@ -53,7 +48,7 @@ export default function About() {
                             </li>
                         ))}
                     </ul>
-                    <h4 className="my-6 text-gray-700 font-Ovo dark:text-white/80">Tools i use</h4>
+                    <h4 className="my-6 text-gray-700 dark:text-white/80">Tools i use</h4>
 
                     <ul className="flex items-center gap-3 sm:gap-5">
                         {tools.map((tool) => (

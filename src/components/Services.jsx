@@ -25,9 +25,9 @@ export default function Services() {
     ];
     return (
         <div id="services" className="w-full px-[12%] py-10 scroll-mt-10">
-            <h4 className="text-center mb-2 text-lg font-Ovo dark:text-[#1EFF00] text-blue-500">What i offer</h4>
-            <h2 className="text-center text-5xl font-Ovo">My services</h2>
-            <p className="text-center max-w-2xl mx-auto mt-5 mb-12 font-Ovo">I am a Full-Stack Web Developer specializing in MERN, Java, and SQL — passionate about building scalable, user-focused applications with clean design and powerful backend systems.</p>
+            <h4 className="text-center mb-2 text-lg dark:text-[#1EFF00] text-blue-500">What i offer</h4>
+            <h2 className="text-center text-5xl">My services</h2>
+            <p className="text-center max-w-2xl mx-auto mt-5 mb-12">I am a Full-Stack Web Developer specializing in MERN, Java, and SQL — passionate about building scalable, user-focused applications with clean design and powerful backend systems.</p>
 
             <div className="grid grid-cols-auto my-10 gap-1">
                 {services.map((service) => (
