@@ -1,0 +1,14 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+@theme {
+    /* Font families */
+    --font-sans: 'Inter', sans-serif;
+    --font-urbanist: 'Urbanist', sans-serif;
+
+    /* Colors */
+    --color-primary: #1EFF00;
+    --color-secondary: #15B100;
+}
