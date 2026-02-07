@@ -15,9 +15,9 @@ export default function Header() {
                     contact me <img src="./assets/arrow-icon.png" alt="" className="w-3" />
                 </a>
 
-                <a href="./assets/dev-icon.png" download
+                <a href="https://drive.google.com/file/d/1Hu2Og6AOXRXfN7W2KZVfo9fhg8FR4y_R/view?usp=sharing" target="_blank"
                     className="px-10 py-2.5 rounded-sm border dark:border-green-500/30 dark:hover:bg-green-500/20 transition dark:bg-green-500/10 flex items-center gap-2 bg-white dark:text-white border-blue-600 bg-blue-500/10 hover:bg-blue-500/20 ">
-                    my resume <img src="./assets/download-icon.png" alt="" className="w-4 dark:invert" />
+                    my resume <img src="./assets/arrow-icon.png" alt="" className="w-3 dark:invert" />
                 </a>
             </div>
         </div>
