@@ -1,22 +1,36 @@
-🚀 Personal Portfolio Website
-Welcome to my personal portfolio website! Built with React.js, this website showcases my journey, skills, projects, and achievements as a web developer and tech enthusiast.
+# 🚀 Personal Portfolio Website
 
-🌐 Live Website
-🔗 Visit My Portfolio
+Welcome to my personal portfolio website! Built with **React.js**, this website showcases my journey, skills, projects, and achievements as a web developer and tech enthusiast.
 
-🛠️ Tech Stack
-⚛️ React.js
-🎨 CSS
-💅 Styled Components
-🔄 React Router DOM
-☁️ Netlify (for deployment)
-📄 Markdown (for this README)
-📁 Features
-🖼️ Responsive and modern UI
-🧭 Navigation with smooth scroll
-🧑‍💻 Project showcase with links
-📫 Contact form with validation
-🚀 How to Run Locally
+## 🌐 Live Website
+
+🔗 [Visit My Portfolio](https://my-portfolio-200.netlify.app/)
+
+---
+
+## 🛠️ Tech Stack
+
+- ⚛️ **React.js**
+- 🎨 **CSS** 
+- 💅 **Styled Components**
+- 🔄 **React Router DOM**
+- ☁️ **Netlify** (for deployment)
+- 📄 **Markdown** (for this README)
+
+---
+
+## 📁 Features
+
+- 🖼️ Responsive and modern UI
+- 🧭 Navigation with smooth scroll
+- 🧑‍💻 Project showcase with links
+- 📫 Contact form with validation
+
+---
+
+## 🚀 How to Run Locally
+
+```bash
 git clone https://github.com/tanmoy-paul01/portfolio.git
 cd portfolio
 npm install
